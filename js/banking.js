@@ -37,3 +37,4 @@ document.getElementById('withdraw-button').addEventListener('click', function(){
     balanceTotal.innerText = parseFloat(balanceTotal.innerText)-parseFloat(withdrawAmount);
     console.log('New Balance = ', balanceTotal.innerText)
 });
+
